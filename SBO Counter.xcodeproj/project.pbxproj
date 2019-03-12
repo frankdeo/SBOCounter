@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D7B055135A46F100D15A03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D7B054135A46F100D15A03 /* UIKit.framework */; };
+		01D7B057135A46F100D15A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D7B056135A46F100D15A03 /* Foundation.framework */; };
+		01D7B059135A46F100D15A03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D7B058135A46F100D15A03 /* CoreGraphics.framework */; };
+		01D7B05F135A46F100D15A03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01D7B05D135A46F100D15A03 /* InfoPlist.strings */; };
+		01D7B062135A46F100D15A03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D7B061135A46F100D15A03 /* main.m */; };
+		01D7B065135A46F100D15A03 /* SBO_CounterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D7B064135A46F100D15A03 /* SBO_CounterAppDelegate.m */; };
+		01D7B068135A46F100D15A03 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D7B066135A46F100D15A03 /* MainWindow.xib */; };
+		01D7B06B135A46F100D15A03 /* SBO_CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D7B06A135A46F100D15A03 /* SBO_CounterViewController.m */; };
+		01D7B06E135A46F100D15A03 /* SBO_CounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D7B06C135A46F100D15A03 /* SBO_CounterViewController.xib */; };
+		01D7B075135A48B100D15A03 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D7B074135A48B100D15A03 /* iAd.framework */; };
+		01D7B077135A6D6000D15A03 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D7B076135A6D6000D15A03 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01D7B050135A46F100D15A03 /* SBO Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SBO Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D7B054135A46F100D15A03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01D7B056135A46F100D15A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01D7B058135A46F100D15A03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01D7B05C135A46F100D15A03 /* SBO Counter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBO Counter-Info.plist"; sourceTree = "<group>"; };
+		01D7B05E135A46F100D15A03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01D7B060135A46F100D15A03 /* SBO Counter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBO Counter-Prefix.pch"; sourceTree = "<group>"; };
+		01D7B061135A46F100D15A03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01D7B063135A46F100D15A03 /* SBO_CounterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBO_CounterAppDelegate.h; sourceTree = "<group>"; };
+		01D7B064135A46F100D15A03 /* SBO_CounterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBO_CounterAppDelegate.m; sourceTree = "<group>"; };
+		01D7B067135A46F100D15A03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		01D7B069135A46F100D15A03 /* SBO_CounterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBO_CounterViewController.h; sourceTree = "<group>"; };
+		01D7B06A135A46F100D15A03 /* SBO_CounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBO_CounterViewController.m; sourceTree = "<group>"; };
+		01D7B06D135A46F100D15A03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBO_CounterViewController.xib; sourceTree = "<group>"; };
+		01D7B074135A48B100D15A03 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		01D7B076135A6D6000D15A03 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D7B04D135A46F100D15A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D7B075135A48B100D15A03 /* iAd.framework in Frameworks */,
+				01D7B055135A46F100D15A03 /* UIKit.framework in Frameworks */,
+				01D7B057135A46F100D15A03 /* Foundation.framework in Frameworks */,
+				01D7B059135A46F100D15A03 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D7B045135A46F100D15A03 = {
+			isa = PBXGroup;
+			children = (
+				01D7B076135A6D6000D15A03 /* Icon.png */,
+				01D7B05A135A46F100D15A03 /* SBO Counter */,
+				01D7B053135A46F100D15A03 /* Frameworks */,
+				01D7B051135A46F100D15A03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01D7B051135A46F100D15A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01D7B050135A46F100D15A03 /* SBO Counter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01D7B053135A46F100D15A03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01D7B074135A48B100D15A03 /* iAd.framework */,
+				01D7B054135A46F100D15A03 /* UIKit.framework */,
+				01D7B056135A46F100D15A03 /* Foundation.framework */,
+				01D7B058135A46F100D15A03 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01D7B05A135A46F100D15A03 /* SBO Counter */ = {
+			isa = PBXGroup;
+			children = (
+				01D7B063135A46F100D15A03 /* SBO_CounterAppDelegate.h */,
+				01D7B064135A46F100D15A03 /* SBO_CounterAppDelegate.m */,
+				01D7B066135A46F100D15A03 /* MainWindow.xib */,
+				01D7B069135A46F100D15A03 /* SBO_CounterViewController.h */,
+				01D7B06A135A46F100D15A03 /* SBO_CounterViewController.m */,
+				01D7B06C135A46F100D15A03 /* SBO_CounterViewController.xib */,
+				01D7B05B135A46F100D15A03 /* Supporting Files */,
+			);
+			path = "SBO Counter";
+			sourceTree = "<group>";
+		};
+		01D7B05B135A46F100D15A03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D7B05C135A46F100D15A03 /* SBO Counter-Info.plist */,
+				01D7B05D135A46F100D15A03 /* InfoPlist.strings */,
+				01D7B060135A46F100D15A03 /* SBO Counter-Prefix.pch */,
+				01D7B061135A46F100D15A03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01D7B04F135A46F100D15A03 /* SBO Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D7B071135A46F100D15A03 /* Build configuration list for PBXNativeTarget "SBO Counter" */;
+			buildPhases = (
+				01D7B04C135A46F100D15A03 /* Sources */,
+				01D7B04D135A46F100D15A03 /* Frameworks */,
+				01D7B04E135A46F100D15A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SBO Counter";
+			productName = "SBO Counter";
+			productReference = 01D7B050135A46F100D15A03 /* SBO Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D7B047135A46F100D15A03 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 01D7B04A135A46F100D15A03 /* Build configuration list for PBXProject "SBO Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01D7B045135A46F100D15A03;
+			productRefGroup = 01D7B051135A46F100D15A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01D7B04F135A46F100D15A03 /* SBO Counter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D7B04E135A46F100D15A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D7B05F135A46F100D15A03 /* InfoPlist.strings in Resources */,
+				01D7B068135A46F100D15A03 /* MainWindow.xib in Resources */,
+				01D7B06E135A46F100D15A03 /* SBO_CounterViewController.xib in Resources */,
+				01D7B077135A6D6000D15A03 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D7B04C135A46F100D15A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D7B062135A46F100D15A03 /* main.m in Sources */,
+				01D7B065135A46F100D15A03 /* SBO_CounterAppDelegate.m in Sources */,
+				01D7B06B135A46F100D15A03 /* SBO_CounterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01D7B05D135A46F100D15A03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D7B05E135A46F100D15A03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01D7B066135A46F100D15A03 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D7B067135A46F100D15A03 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		01D7B06C135A46F100D15A03 /* SBO_CounterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D7B06D135A46F100D15A03 /* en */,
+			);
+			name = SBO_CounterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D7B06F135A46F100D15A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01D7B070135A46F100D15A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		01D7B072135A46F100D15A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBO Counter/SBO Counter-Prefix.pch";
+				INFOPLIST_FILE = "SBO Counter/SBO Counter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01D7B073135A46F100D15A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Version 40 Software, LLC";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBO Counter/SBO Counter-Prefix.pch";
+				INFOPLIST_FILE = "SBO Counter/SBO Counter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FCAA9624-F22D-4B20-BA49-B26B52005255";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D7B04A135A46F100D15A03 /* Build configuration list for PBXProject "SBO Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D7B06F135A46F100D15A03 /* Debug */,
+				01D7B070135A46F100D15A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D7B071135A46F100D15A03 /* Build configuration list for PBXNativeTarget "SBO Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D7B072135A46F100D15A03 /* Debug */,
+				01D7B073135A46F100D15A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D7B047135A46F100D15A03 /* Project object */;
+}
